@@ -1,0 +1,10 @@
+@media screen and (max-width: 480px) {
+    .footerresponsive{
+        display: none;
+    }
+    .container {
+        font-size: 10px;
+        margin-top: 9px;
+        padding: 0px 10px;
+    }
+}
