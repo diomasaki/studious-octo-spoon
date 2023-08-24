@@ -50,7 +50,7 @@ const Orders = () => {
   return (
     <>
       <Navbar />
-      <Announcement />
+      
       <Container>
         <Bar>
           <span style={{ flex: 1 }}>Products &amp; Quantities</span>

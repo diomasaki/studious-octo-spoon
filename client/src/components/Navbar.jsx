@@ -1,5 +1,5 @@
 import { Badge } from "@material-ui/core";
-import { InfoOutlined, ShoppingCartOutlined } from "@material-ui/icons";
+import { FavoriteBorderOutlined, InfoOutlined, SecurityOutlined, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
 import styled from "styled-components";
 import { mobile } from "../responsive";
@@ -7,10 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { persistor } from "../redux/store";
 import { FlagIcon } from "react-flag-kit";
-import LogoutIcon from "@mui/icons-material/Logout";
 import { unconfirmPassword } from "../redux/apiCalls";
-import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import SecurityIcon from "@mui/icons-material/Security";
 import styles from "../styles/Navbar.module.css";
 import { useState } from "react";
 
@@ -108,7 +105,7 @@ const Navbar = () => {
                 <MenuItem>
                   <Badge badgeContent={quantity2} color="primary">
                     |{" "}
-                    <FavoriteBorderIcon
+                    <FavoriteBorderOutlined
                       style={{ marginTop: "-3px", padding: "0px 4px" }}
                     />{" "}
                   </Badge>
@@ -133,7 +130,7 @@ const Navbar = () => {
           <div className="container">
             <Center>
               <Link to="/" style={{ color: "black", textDecoration: "none" }}>
-                <Logo>MASAKI&amp;CO</Logo>
+                <Logo>Dobujack.</Logo>
               </Link>
             </Center>
           </div>
@@ -164,7 +161,7 @@ const Navbar = () => {
                   </Link>
                   <Link to="/adminpanel">
                     <div className={styles.responsivenavbar}>
-                      <SecurityIcon
+                      <SecurityOutlined
                         style={{
                           width: "20px",
                           marginTop: "2px",

@@ -91,7 +91,7 @@ const Security = () => {
   return (
     <div>
       <Navbar />
-      <Announcement />
+      
       <Form>
         <Title>Account Settings</Title>
         <Duo>

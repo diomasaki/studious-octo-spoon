@@ -15,7 +15,7 @@ const Intro = () => {
         <div className="i-left">
           <div className="i-left-wrapper">
             <h2 className="i-intro">HOW TO ORDER?</h2>
-            <h1 className="i-name">MASAKI&amp;CO</h1>
+            <h1 className="i-name">Dobujack.</h1>
             <div className="i-title">
               <div className="i-title-wrapper">
                 <div className="i-title-item">T-Shirt</div>

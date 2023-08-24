@@ -105,7 +105,7 @@ export default function NewProduct() {
   return (
     <>
       <Navbar />
-      <Announcement/>
+      
       <div className="newProduct">
         <SummaryItem>
           <SummaryItemText>YOUR TOTAL</SummaryItemText>

@@ -7,7 +7,7 @@ const NwSuccess = () => {
   return (
     <div style={{height: "100vh"}}>
       <Navbar />
-      <Announcement />
+      
       <div style={{backgroundColor: "#fcf5f5", height: "100%", paddingTop: "30vh", display: "flex", flexDirection:"column", alignItems: "center"}}>
         <h1 style={{textAlign: "center", color: "black", fontSize: "40px"}}>Thanks for registering to our newsletter !</h1>
         <Link to="/" style={{color: "black", textDecoration: "none"}} >

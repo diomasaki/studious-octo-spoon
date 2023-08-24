@@ -233,7 +233,7 @@ const Cart = () => {
   return (
     <Container>
       <Navbar />
-      <Announcement />
+      
       <Wrapper>
         <Title>YOUR BAG</Title>
         <Top>
@@ -305,7 +305,7 @@ const Cart = () => {
             </SummaryItem>
             {cart.total !== 0 ? (
               <StripeCheckout
-                name="MASAKI&amp;CO Shop"
+                name="Dobujack"
                 image="https://t4.ftcdn.net/jpg/03/26/84/93/360_F_326849319_YOHGRqzo2lq419oNk3fCg6DSLlo6Oxdm.jpg"
                 description={`Your total is $${cart.total}`}
                 amount={cart.total * 100}

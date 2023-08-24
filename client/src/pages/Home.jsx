@@ -12,7 +12,6 @@ const Home = (type) => {
   return (
     <div>
       <Navbar />
-      <Announcement />
       <Slider />
       {type.type === "men" ? <CategoriesMen/> : type.type === "women" ? <CategoriesWomen/> : <Categories/>}
       <Newsletter/>

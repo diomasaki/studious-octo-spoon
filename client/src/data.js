@@ -1,49 +1,49 @@
 export const sliderItems = [
-    {
-      id: 1,
-      img: "https://www.mdc.edu/fashion/img/fashion-forward-model.png",
-      title: "AUTUMN COLLECTION",
-      desc: "Autumn collection is here ! feel free to check the categories below !",
-      bg: "fcf1ed",
-    },
-    {
-      id: 2,
-      img: "http://1.bp.blogspot.com/-CB2LqDKmY6c/TkQjYUSzYVI/AAAAAAAAADw/EqTWdE5jCKs/s1600/shirt_fit_guide_model.png",
-      title: "SUMMER SALE",
-      desc: "Like a wave of optimism, the spring-summer 2022 collection calls for lighthearted and gentle living, collection will be available soon.​",
-      bg: "fcf1ed",
-    },
-    {
-      id: 3,
-      img: "https://icons.iconarchive.com/icons/itzikgur/my-seven/512/Girls-Blue-Dress-icon.png",
-      title: "VALENTINE'S COLLECTION",
-      desc: "Valentine's special collection ! Available for two extra months !",
-      bg: "fcf1ed",
-    },
+  {
+    id: 1,
+    img: "https://wpstore.com/cdn/shop/articles/BANNER_2_1_1920x.jpg?v=1685450516",
+    title: "Dobujack.",
+    desc: "Koleksi musim dingin ada disini ! segera cek kategori terbaru!",
+    bg: "fcf1ed",
+  },
+  {
+    id: 2,
+    img: "https://wpstore.com/cdn/shop/articles/BANNER_2_1_1920x.jpg?v=1685450516",
+    title: "Dobujack.",
+    desc: "Seperti gelombang optimisme, koleksi musim semi-musim panas 2022 membutuhkan kehidupan yang ringan dan lembut, koleksi akan segera tersedia.​",
+    bg: "fcf1ed",
+  },
+  {
+    id: 3,
+    img: "https://wpstore.com/cdn/shop/articles/BANNER_2_1_1920x.jpg?v=1685450516",
+    title: "Dobujack.",
+    desc: "Koleksi spesial Valentine! Tersedia untuk dua bulan ekstra!",
+    bg: "fcf1ed",
+  },
   ];
 
   export const categories = [
     {
       id: 1,
-      img: "https://i.insider.com/5ef27b49988ee34e43460cf4?width=750&format=jpeg&auto=webp",
+      img: "https://64.media.tumblr.com/d9c6fb6494726120639554adf44421b8/717bf8870e9822a2-6c/s1280x1920/d1bd784e32b8bb3b6b33f3d1495157d5a02854ed.jpg",
       title: "SHIRT STYLE",
       cat:"T-shirts"
     },
     {
       id: 2,
-      img: "https://daman.co.id/daman.co.id/wp-content/uploads/2018/02/Swarovski-Valentines-Day-2018-CampaignEdit.jpg",
+      img: "https://media.gq-magazine.co.uk/photos/61eab76d3d7efe70a7943ca5/1:1/w_1600%2Cc_limit/210122_FW_Day3_HP.jpg",
       title: "VALENTINE'S COLLECTION",
       cat:"Valentine's Collection Men"
     },
     {
       id: 3,
-      img: "https://img.dtcn.com/image/themanual/best-lightweight-jackets-for-men-2021.jpg",
+      img: "https://i.pinimg.com/originals/67/d3/03/67d3032d0a873932acb465d8e111963c.jpg",
       title: "LIGHT JACKETS",
       cat:"Light Jackets"
     },
     {
       id: 4,
-      img: "https://www.thekewlshop.com/ezoimgfmt/cdn.shopify.com/s/files/1/0145/1162/files/Fotolia_134401165_Subscription_Monthly_M_grande.jpg?ezimgfmt=ng%3Awebp%2Fngcb4%2Frs%3Adevice%2Frscb4-2&v=1516957946",
+      img: "https://m.media-amazon.com/images/I/81HUf+Q0BML.jpg",
       title: "VALENTINE'S COLLECTION",
       cat:"Valentine's Collection Women"
     },
@@ -55,7 +55,7 @@ export const sliderItems = [
     },
     {
       id: 6,
-      img: "https://wallpaperaccess.com/full/4390085.jpg",
+      img: "https://i.pinimg.com/originals/a3/f4/97/a3f497e066bd1f1d4abe24e01a9f73fc.jpg",
       title: "DENIM JEANS",
       cat:"Denim Jeans"
     },

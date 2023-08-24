@@ -96,7 +96,7 @@ const ShippingAddress = () => {
   return (
     <div>
       <Navbar />
-      <Announcement />
+      
       <Form>
         <Title>Shipping Address</Title>
         <Duo>

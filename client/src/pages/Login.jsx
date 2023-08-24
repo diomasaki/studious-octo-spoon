@@ -92,7 +92,7 @@ const Login = () => {
   return (
     <div style={{height:"100vh"}}>
     <Navbar/>
-    <Announcement/>
+    
     <Container>
       <Wrapper>
         <Title>SIGN IN</Title>

@@ -13,14 +13,11 @@ const Container = styled.div`
 const Products = ({ cat, filters, sort, input }) => {
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
-  const axiosInstance = axios.create({
-    baseURL: process.env.REACT_APP_API_URL,
-  });
 
   useEffect(() => {
     const getProducts = async () => {
       try {
-        const res = await axiosInstance.get(
+        const res = await axios.get(
           cat
             ? `http://localhost:5000/api/products?category=${cat}`
             : "http://localhost:5000/api/products"

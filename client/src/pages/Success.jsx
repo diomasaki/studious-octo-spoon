@@ -4,11 +4,11 @@ import { useLocation } from "react-router";
 import { userRequest } from "../requestMethods";
 import {Link} from "react-router-dom";
 import styled from "styled-components";
-import DateRangeIcon from '@mui/icons-material/DateRange';
 import Navbar from "../components/Navbar";
 import Announcement from "../components/Announcement";
 
 import {
+  DateRangeOutlined,
   MailOutline,
   Phone,
   Room
@@ -103,10 +103,10 @@ const Success = () => {
   return (
     <>
     <Navbar/>
-    <Announcement/>
+    
     <Container>
       <Container2>
-      <h1 style={{fontSize:"40px"}}>MASAKI&amp;CO</h1>
+      <h1 style={{fontSize:"40px"}}>Dobujack.</h1>
       <span>Payement Receipt</span>
       </Container2>
       <Container3>
@@ -116,7 +116,7 @@ const Success = () => {
           <span>Wall Street, Lake Banks 2, 2046</span>
         </Duo3>
         <Duo3>
-          <DateRangeIcon style={{marginRight:"10px"}}/>
+          <DateRangeOutlined style={{marginRight:"10px"}}/>
           <span>{orderTime}</span>
         </Duo3>
         </Duo>

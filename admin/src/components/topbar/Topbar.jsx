@@ -1,10 +1,9 @@
 import React from "react";
 import "./topbar.css";
-import LogoutIcon from "@mui/icons-material/Logout";
+import {ArrowBackOutlined, Dashboard } from "@material-ui/icons"
 import { persistor } from "../../redux/store";
 import { useSelector } from "react-redux";
 import { Redirect } from "react-router-dom";
-import DashboardIcon from "@mui/icons-material/Dashboard";
 import { Link } from "react-router-dom";
 
 export default function Topbar() {
@@ -17,7 +16,7 @@ export default function Topbar() {
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
-          <span className="logo">MASAKI&amp;CO Admin Panel</span>
+          <span className="logo">Dobujack. Admin Panel</span>
         </div>
         <div className="topRight">
           {user ? (
@@ -38,7 +37,7 @@ export default function Topbar() {
                 </Link>
               </span>
               <Link to="/website">
-                <DashboardIcon
+                <Dashboard
                   style={{
                     marginTop: "2px",
                     color: "teal",
@@ -47,7 +46,7 @@ export default function Topbar() {
                 />
               </Link>
               <button onClick={handleClick}>
-                <LogoutIcon style={{ marginTop: "2px" }} />
+                <ArrowBackOutlined style={{ marginTop: "2px" }} />
               </button>
             </div>
           ) : (

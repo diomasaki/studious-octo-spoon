@@ -68,7 +68,7 @@ const OrderConfirmation = () => {
   return (
     <>
       <Navbar />
-      <Announcement />
+      
       <Form>
         <div
           style={{

@@ -5,8 +5,8 @@ import { mobile } from "../responsive";
 import { register } from "../redux/apiCalls";
 import Navbar from "../components/Navbar";
 import Announcement from "../components/Announcement";
-import VisibilityIcon from '@mui/icons-material/Visibility';
 import { useSelector } from "react-redux";
+import { VisibilityOutlined } from "@material-ui/icons";
 
 
 const Container = styled.div` 
@@ -122,7 +122,7 @@ const Register = () => {
   return (
     <div style={{height:"100vh"}}>
     <Navbar/>
-    <Announcement/>
+    
     <Container>
       <Wrapper>
         <Title>REGISTER  ACCOUNT</Title>
@@ -132,7 +132,7 @@ const Register = () => {
           <Input placeholder="Address" onChange={(e) => setAddress(e.target.value)}/>
             <Duo>
               <Input type="text" placeholder="Password" id="pass" onChange={(e) => setPassword(e.target.value)}/>
-              <Button2 id="passvis"  onClick={()=>handleVisibility()}><VisibilityIcon/></Button2>
+              <Button2 id="passvis"  onClick={()=>handleVisibility()}><VisibilityOutlined/></Button2>
             </Duo>
           <Agreement>
             By creating an account, I consent to the processing of my personal

@@ -89,9 +89,9 @@ const Footer = () => {
     <div className="styles.container">
       <Container>
         <Left>
-          <Logo>MASAKI&amp;CO</Logo>
+          <Logo>Dobujack.</Logo>
           <Desc>
-            Since 2008, the Foundation of MASAKI&amp;CO has worked to ensure the
+            Since 2008, the Foundation of Dobujack. has worked to ensure the
             necessary conditions are in place to create new works of art,
             transmit skills and know-how &amp; produce the highest quality
             designs.

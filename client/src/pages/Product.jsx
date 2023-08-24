@@ -1,4 +1,4 @@
-import { Add, Remove } from "@material-ui/icons";
+import { AccountCircleOutlined, Add, DeleteOutlineOutlined, DoneOutline, EditOutlined, FavoriteBorderOutlined, Remove } from "@material-ui/icons";
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
@@ -11,8 +11,6 @@ import { addProduct } from "../redux/cartRedux";
 import { addToWishlist } from "../redux/wishlistRedux";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import { removeFromWishlist } from "../redux/wishlistRedux";
 import ReactStars from "react-stars";
 import {
@@ -22,10 +20,6 @@ import {
   setEditMode,
 } from "../redux/apiCalls";
 import { getCommentsratings } from "../redux/apiCalls";
-import AccountCircleIcon from "@mui/icons-material/AccountCircle";
-import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
-import EditIcon from "@mui/icons-material/Edit";
-import DoneIcon from "@mui/icons-material/Done";
 import styles from "../styles/Navbar.module.css";
 
 const Container = styled.div``;
@@ -344,7 +338,7 @@ const Product = () => {
   return (
     <Container>
       <Navbar />
-      <Announcement />
+      
       <Wrapper>
         <div className={styles.img}>
           <ImgContainer>
@@ -405,7 +399,7 @@ const Product = () => {
                 <Button style={{}}>OUT OF STOCK</Button>
               )}
               {checkIfExist2() ? (
-                <FavoriteIcon
+                <FavoriteBorderOutlined
                   onClick={() => handleClick3(product._id, product.price, 1)}
                   style={{
                     marginLeft: "10px",
@@ -415,7 +409,7 @@ const Product = () => {
                   }}
                 />
               ) : (
-                <FavoriteBorderIcon
+                <FavoriteBorderOutlined
                   onClick={() => handleClick2(product.color, product.size)}
                   style={{
                     marginLeft: "10px",
@@ -500,7 +494,7 @@ const Product = () => {
                     value={rating2}
                     onChange={ratingChanged2}
                   />
-                  <DoneIcon
+                  <DoneOutline
                     style={{
                       color: "teal",
                       cursor: "pointer",
@@ -515,7 +509,7 @@ const Product = () => {
             {comments.map((comment) => (
               <Cwrapper>
                 <Duo2>
-                  <AccountCircleIcon style={{ color: "teal" }} />
+                  <AccountCircleOutlined style={{ color: "teal" }} />
                   <div style={{ marginLeft: "5px" }}>{comment.username}</div>
                   <Duo3 id="starscontainer">
                     <span style={{ marginTop: "5px", marginRight: "5px" }}>
@@ -555,26 +549,26 @@ const Product = () => {
                   </span>
                   {admin ? (
                     <div style={{ cursor: "pointer" }} id="iconcontainer">
-                      <EditIcon
+                      <EditOutlined
                         style={{ color: "teal" }}
                         onClick={() =>
                           handleEdit(comment._id, comment.text, comment.rating)
                         }
                       />
-                      <DeleteOutlineIcon
+                      <DeleteOutlineOutlined
                         style={{ color: "red" }}
                         onClick={() => handleDelete(comment._id)}
                       />
                     </div>
                   ) : usr === comment.username ? (
                     <div style={{ cursor: "pointer" }} id="iconcontainer">
-                      <EditIcon
+                      <EditOutlined
                         style={{ color: "teal" }}
                         onClick={() =>
                           handleEdit(comment._id, comment.text, comment.rating)
                         }
                       />
-                      <DeleteOutlineIcon
+                      <DeleteOutlineOutlined
                         style={{ color: "red" }}
                         onClick={() => handleDelete(comment._id)}
                       />

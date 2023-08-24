@@ -168,7 +168,7 @@ const Wishlist = () => {
   return (
     <Container>
       <Navbar />
-      <Announcement />
+      
       <Wrapper>
         <Title>YOUR WISHLIST</Title>
         <Bottom>

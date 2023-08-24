@@ -6,8 +6,7 @@ import Footer from "../components/Footer";
 import { mobile } from "../responsive";
 import { useLocation } from "react-router";
 import { useState } from "react";
-import { Refresh, Search } from "@material-ui/icons";
-import CachedIcon from '@mui/icons-material/Cached';
+import { CachedOutlined, Refresh, Search } from "@material-ui/icons";
 import styles from "../styles/Navbar.module.css"
 
 
@@ -87,7 +86,7 @@ const ProductList = () => {
   return (
     <Container>
       <Navbar />
-      <Announcement />
+      
       <div style={{display:"flex", marginRight:"10px", alignItems:"center"}}>
       <Title>{cat}</Title>
       <SearchContainer>
@@ -120,7 +119,7 @@ const ProductList = () => {
             <Option>L</Option>
             <Option>XL</Option>
           </Select>
-          <CachedIcon onClick={()=>ref()}/>
+          <CachedOutlined onClick={()=>ref()}/>
         </Filter>
         <div className={styles.responsivenavbar}>
         <Filter>

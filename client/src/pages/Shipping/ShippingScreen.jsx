@@ -18,7 +18,7 @@ const ShippingScreen = () => {
   return (
     <>
       <Navbar />
-      <Announcement />
+      
       <div className="singin">
         <form className="signin form input" onSubmit={submitHandler}>
           <h1 style={{ padding: "20px 20px" }}>DELIVERY ADDRESS</h1>

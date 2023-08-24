@@ -67,7 +67,7 @@ const Profile = () => {
   return (
     <>
         <Navbar/>
-        <Announcement/>
+        
         <Form>
           <div style={{display:"flex", alignItems:"center", width:"fit-content"}}>
             <Duo>
