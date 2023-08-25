@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/studious-octo-spoon/static/css/main.c98253b7.chunk.css",
+    "main.js": "/studious-octo-spoon/static/js/main.5eed8c56.chunk.js",
+    "main.js.map": "/studious-octo-spoon/static/js/main.5eed8c56.chunk.js.map",
+    "runtime-main.js": "/studious-octo-spoon/static/js/runtime-main.3fb8fa15.js",
+    "runtime-main.js.map": "/studious-octo-spoon/static/js/runtime-main.3fb8fa15.js.map",
+    "static/css/2.ca7373e6.chunk.css": "/studious-octo-spoon/static/css/2.ca7373e6.chunk.css",
+    "static/js/2.f899c1b3.chunk.js": "/studious-octo-spoon/static/js/2.f899c1b3.chunk.js",
+    "static/js/2.f899c1b3.chunk.js.map": "/studious-octo-spoon/static/js/2.f899c1b3.chunk.js.map",
+    "index.html": "/studious-octo-spoon/index.html",
+    "static/css/2.ca7373e6.chunk.css.map": "/studious-octo-spoon/static/css/2.ca7373e6.chunk.css.map",
+    "static/css/main.c98253b7.chunk.css.map": "/studious-octo-spoon/static/css/main.c98253b7.chunk.css.map",
+    "static/js/2.f899c1b3.chunk.js.LICENSE.txt": "/studious-octo-spoon/static/js/2.f899c1b3.chunk.js.LICENSE.txt",
+    "static/media/award.90ce0404.png": "/studious-octo-spoon/static/media/award.90ce0404.png",
+    "static/media/me.c7b8722f.png": "/studious-octo-spoon/static/media/me.c7b8722f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3fb8fa15.js",
+    "static/css/2.ca7373e6.chunk.css",
+    "static/js/2.f899c1b3.chunk.js",
+    "static/css/main.c98253b7.chunk.css",
+    "static/js/main.5eed8c56.chunk.js"
+  ]
+}
