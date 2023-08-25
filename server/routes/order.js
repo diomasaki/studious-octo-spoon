@@ -4,6 +4,7 @@ const {
   verifyTokenAndAuthorization,
   verifyTokenAndAdmin,
 } = require("./verifyToken");
+const CryptoJS = require("crypto-js");
 
 const router = require("express").Router();
 
@@ -15,7 +16,15 @@ const router = require("express").Router();
 //CREATE
 
 router.post("/", async (req, res) => {
-  const newOrder = new Order(req.body);
+  const newOrder = new Order({
+     userId: req.body.userId,
+     products: req.body.products,
+     amount: req.body.amount,
+     address: CryptoJS.AES.encrypt(process.env.PASS_SEC, req.body.address).toString(),
+     status: req.body.status,
+     onStatus: req.body.onStatus,
+     statusT: req.body.statusT,
+  });
 
   try {
     const savedOrder = await newOrder.save();

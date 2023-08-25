@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 import { unconfirmPassword } from "../redux/apiCalls";
 
 const KEY =
-  "pk_test_51MS4lRFlHJYeOoc31yEg8DAdsd4NxQ0Be1LdT1Fu8HqAvkhTPcn5mJcEsMAZrmMJJFABxYgnS3X1ZznbKs34UiJZ00vjwA39dI";
+  "pk_test_51KykrOI4yXrhDDyzxWbvwa2BG2wlnrnf0vCJ8N9cVG6utlxWz9A6op7XUjbHyNoxyEpe5ehkBYZ0u3t41XEbSo5F006qYPIWiz";
 
 const Container = styled.div``;
 
@@ -322,7 +322,7 @@ const Cart = () => {
             {cart.total !== 0 ? (
               <Link to="/orderconfirmation" style={{}}>
                 <TopButton onClick={() => unconfirmPass()}>
-                  CHECKOUT VIA BANK TRANSFER MANUAL
+                  CHECKOUT VIA BANK TRANSFER
                 </TopButton>
               </Link>
             ) : (
