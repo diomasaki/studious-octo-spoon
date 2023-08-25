@@ -32,13 +32,13 @@ const Wrapper = styled.div`
 
 const ImgContainer = styled.div`
   flex: 2;
+  ${mobile({ display: "flex", width: "310px"})}
 `;
 
 const Image = styled.img`
   width: 100%;
   height: 90vh;
   object-fit: contain;
-  ${mobile({ height: "40vh" })}
 `;
 
 const InfoContainer = styled.div`

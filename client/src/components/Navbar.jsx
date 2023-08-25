@@ -50,6 +50,7 @@ const Right = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  display: none;
   ${mobile({ flex: 2, justifyContent: "center" })}
 `;
 
