@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/studious-octo-spoon/static/css/main.c98253b7.chunk.css",
-    "main.js": "/studious-octo-spoon/static/js/main.5eed8c56.chunk.js",
-    "main.js.map": "/studious-octo-spoon/static/js/main.5eed8c56.chunk.js.map",
+    "main.js": "/studious-octo-spoon/static/js/main.116e0ee0.chunk.js",
+    "main.js.map": "/studious-octo-spoon/static/js/main.116e0ee0.chunk.js.map",
     "runtime-main.js": "/studious-octo-spoon/static/js/runtime-main.3fb8fa15.js",
     "runtime-main.js.map": "/studious-octo-spoon/static/js/runtime-main.3fb8fa15.js.map",
     "static/css/2.ca7373e6.chunk.css": "/studious-octo-spoon/static/css/2.ca7373e6.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.ca7373e6.chunk.css",
     "static/js/2.f899c1b3.chunk.js",
     "static/css/main.c98253b7.chunk.css",
-    "static/js/main.5eed8c56.chunk.js"
+    "static/js/main.116e0ee0.chunk.js"
   ]
 }
